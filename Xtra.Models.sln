@@ -1,19 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A48FD4E8-0780-40B1-A2A7-D527DAB5A366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xtra.Models", "src\Xtra.Models\Xtra.Models.csproj", "{2FF12EAF-60FE-49C0-8B28-7C69D552DE1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xtra.Models", "src\Xtra.Models\Xtra.Models.csproj", "{2FF12EAF-60FE-49C0-8B28-7C69D552DE1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D47D05BB-90A7-462C-AC79-D3779AE80B82}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		azure-pipelines.yml = azure-pipelines.yml
+		Directory.Build.props = Directory.Build.props
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		GitVersion.yml = GitVersion.yml
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2FF12EAF-60FE-49C0-8B28-7C69D552DE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -21,7 +28,13 @@ Global
 		{2FF12EAF-60FE-49C0-8B28-7C69D552DE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FF12EAF-60FE-49C0-8B28-7C69D552DE1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2FF12EAF-60FE-49C0-8B28-7C69D552DE1B} = {A48FD4E8-0780-40B1-A2A7-D527DAB5A366}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38B2777-5BDB-4452-B0E2-2D78DECB05A5}
 	EndGlobalSection
 EndGlobal
