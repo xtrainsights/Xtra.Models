@@ -1,6 +1,6 @@
 ﻿namespace Xtra.Models.Settings;
 
-public class SeqSettings
+public record SeqSettings
 {
     public bool Enabled { get; set; }
     public string? ServerUrl { get; set; }

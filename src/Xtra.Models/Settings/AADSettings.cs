@@ -3,7 +3,7 @@
 
 namespace Xtra.Models.Settings;
 
-public class AADSettings
+public record AADSettings
 {
     public string? TenantId { get; set; }
     public string? ClientId { get; set; }

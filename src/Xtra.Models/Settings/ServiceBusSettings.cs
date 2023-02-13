@@ -1,6 +1,6 @@
 ﻿namespace Xtra.Models.Settings;
 
-public class ServiceBusSettings
+public record ServiceBusSettings
 {
     public ServiceBusPlatform Platform { get; set; }
     public string? ConnectionString { get; set; }
