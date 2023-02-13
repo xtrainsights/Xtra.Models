@@ -1,10 +1,9 @@
-﻿namespace Xtra.Models.Settings
+﻿namespace Xtra.Models.Settings;
+
+public enum DatabasePlatform
 {
-    public enum DatabasePlatform
-    {
-        MSSQL,
-        SQLite,
-        PostgreSQL,
-        MySql
-    }
+    MSSQL,
+    SQLite,
+    PostgreSQL,
+    MySql
 }

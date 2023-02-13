@@ -1,13 +1,10 @@
-﻿namespace Xtra.Models.Settings
+﻿namespace Xtra.Models.Settings;
+
+public enum ServiceBusPlatform
 {
-
-    public enum ServiceBusPlatform
-    {
-        Null,
-        AzureServiceBus,
-        RabbitMQ,
-        FileSystem,
-        InMemory
-    }
-
+    Null,
+    AzureServiceBus,
+    RabbitMQ,
+    FileSystem,
+    InMemory
 }

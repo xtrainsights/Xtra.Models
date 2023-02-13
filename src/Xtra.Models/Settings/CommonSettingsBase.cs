@@ -1,8 +1,7 @@
-﻿namespace Xtra.Models.Settings
+﻿namespace Xtra.Models.Settings;
+
+public class CommonSettingsBase
 {
-    public class CommonSettingsBase
-    {
-        public string? KeyVault { get; set; }
-        public AADSettings AAD { get; set; } = new AADSettings();
-    }
+    public string? KeyVault { get; set; }
+    public AADSettings AAD { get; set; } = new();
 }
