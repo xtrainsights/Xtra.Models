@@ -5,6 +5,7 @@ public record ServiceBusSettings
     public ServiceBusPlatform Platform { get; set; }
     public string? ConnectionString { get; set; }
     public string? InputQueueName { get; set; }
+    public string? EncryptionKey { get; set; }
 
 
     /// <summary>
