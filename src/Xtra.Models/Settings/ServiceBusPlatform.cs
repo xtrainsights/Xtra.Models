@@ -2,7 +2,7 @@
 
 public enum ServiceBusPlatform
 {
-    Null,
+    Fake,
     AzureServiceBus,
     RabbitMQ,
     FileSystem,
